@@ -19,10 +19,10 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "9.5.*",
+        "phpunit/phpunit": "^9.5|^10.0",
         "laravel/legacy-factories": "^1.1",
-        "nunomaduro/larastan": "^0.7.6",
-        "orchestra/testbench": "^7.0"
+        "nunomaduro/larastan": "^0.7.6|^2.0",
+        "orchestra/testbench": "^7.0|^8.0"
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
